@@ -1,0 +1,24 @@
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon aria-hidden="false" aria-label="Example chat icon" fontIcon="chat"></mat-icon>
+    </button>
+    <span>Nichats</span>
+    <span class="example-spacer"></span>
+    <mat-card>
+        <mat-card-content>Welcome to Nichats, where nice chats happen!</mat-card-content>
+      </mat-card>
+      
+    <span class="example-spacer"></span>
+        <span>signin or register</span>
+        <a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page">
+          <button  mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+            <mat-icon aria-hidden="false" aria-label="Example login icon" fontIcon="login"></mat-icon>
+          </button>
+        </a>
+        <a routerLink="/register" routerLinkActive="active" ariaCurrentWhenActive="page">
+          <button  mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+            <mat-icon aria-hidden="false" aria-label="Example login icon" fontIcon="person-add"></mat-icon>
+          </button>
+        </a>
+  </mat-toolbar>
+  
