@@ -16,6 +16,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HttpIntercepterInterceptor } from './http-intercepter.interceptor';
 import { AppRoutingModule } from './app.route.module';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     UserComponent,
     SignupComponent,
     SigninComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
