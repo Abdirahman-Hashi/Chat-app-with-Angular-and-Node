@@ -15,13 +15,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HttpIntercepterInterceptor } from './http-intercepter.interceptor';
 import { AppRoutingModule } from './app.route.module';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     SignupComponent,
-    SigninComponent
+    SigninComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
