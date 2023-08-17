@@ -1,0 +1,15 @@
+.example-card {
+    width: 300px;
+    /* margin-left: 29%; */
+    float: right;
+  }
+  .user-profile-text{
+    color: aliceblue;
+  }
+  mat-card-title{
+    color: aliceblue;
+  }
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }

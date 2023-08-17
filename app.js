@@ -1,12 +1,11 @@
 const express = require('express');
 const app  = express();
 const jwt = require('jsonwebtoken');
-const config = require('./config.json');
 const { MongoClient } = require('mongodb')
 const bcrypt = require('bcrypt');
 
 
-let client =new  MongoClient("your local DB address");
+let client =new  MongoClient("mongodb://localhost:27017/MyDb");
 
 const cors = require('cors');
 
